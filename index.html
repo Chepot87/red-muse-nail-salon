@@ -21,7 +21,10 @@
        GOOGLE FONTS
   ========================================= -->
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link
+    rel="preconnect"
+    href="https://fonts.googleapis.com"
+  >
 
   <link
     rel="preconnect"
@@ -62,7 +65,7 @@
       <!-- Logo -->
 
       <a
-        href="#home"
+        href="index.html#home"
         class="header__brand"
         aria-label="Red Muse Nail Studio Home"
       >
@@ -81,6 +84,7 @@
       <button
         class="nav-toggle"
         id="nav-toggle"
+        type="button"
         aria-label="Open navigation menu"
         aria-expanded="false"
         aria-controls="nav-menu"
@@ -112,10 +116,12 @@
           Gallery
         </a>
 
-        <a href="about.html">About</a>
+        <a href="about.html">
+          About
+        </a>
 
         <a
-          href="#contact"
+          href="booking.html"
           class="nav__button"
         >
           Book Now
@@ -135,7 +141,6 @@
   ========================================= -->
 
   <main>
-
 
 
     <!-- ========================================
@@ -174,14 +179,6 @@
 
 
           <div class="hero__actions">
-
-            <a
-              href="#contact"
-              class="btn btn--primary"
-            >
-              Book an Appointment
-            </a>
-
 
             <a
               href="#gallery"
@@ -376,7 +373,12 @@
 
           <!-- Gallery Image 01 -->
 
-          <div class="gallery-card">
+          <button
+            class="gallery-card"
+            type="button"
+            data-image="img/unas1.png"
+            aria-label="View nail design 1"
+          >
 
             <img
               src="img/unas1.png"
@@ -384,13 +386,18 @@
               loading="lazy"
             >
 
-          </div>
+          </button>
 
 
 
           <!-- Gallery Image 02 -->
 
-          <div class="gallery-card">
+          <button
+            class="gallery-card"
+            type="button"
+            data-image="img/unas2.png"
+            aria-label="View nail design 2"
+          >
 
             <img
               src="img/unas2.png"
@@ -398,13 +405,18 @@
               loading="lazy"
             >
 
-          </div>
+          </button>
 
 
 
           <!-- Gallery Image 03 -->
 
-          <div class="gallery-card">
+          <button
+            class="gallery-card"
+            type="button"
+            data-image="img/unas3.png"
+            aria-label="View nail design 3"
+          >
 
             <img
               src="img/unas3.png"
@@ -412,13 +424,18 @@
               loading="lazy"
             >
 
-          </div>
+          </button>
 
 
 
           <!-- Gallery Image 04 -->
 
-          <div class="gallery-card">
+          <button
+            class="gallery-card"
+            type="button"
+            data-image="img/unas4.png"
+            aria-label="View nail design 4"
+          >
 
             <img
               src="img/unas4.png"
@@ -426,13 +443,18 @@
               loading="lazy"
             >
 
-          </div>
+          </button>
 
 
 
           <!-- Gallery Image 05 -->
 
-          <div class="gallery-card">
+          <button
+            class="gallery-card"
+            type="button"
+            data-image="img/unas5.png"
+            aria-label="View nail design 5"
+          >
 
             <img
               src="img/unas5.png"
@@ -440,13 +462,18 @@
               loading="lazy"
             >
 
-          </div>
+          </button>
 
 
 
           <!-- Gallery Image 06 -->
 
-          <div class="gallery-card">
+          <button
+            class="gallery-card"
+            type="button"
+            data-image="img/unas6.png"
+            aria-label="View nail design 6"
+          >
 
             <img
               src="img/unas6.png"
@@ -454,13 +481,18 @@
               loading="lazy"
             >
 
-          </div>
+          </button>
 
 
 
           <!-- Gallery Image 07 -->
 
-          <div class="gallery-card">
+          <button
+            class="gallery-card"
+            type="button"
+            data-image="img/unas7.png"
+            aria-label="View nail design 7"
+          >
 
             <img
               src="img/unas7.png"
@@ -468,13 +500,18 @@
               loading="lazy"
             >
 
-          </div>
+          </button>
 
 
 
           <!-- Gallery Image 08 -->
 
-          <div class="gallery-card">
+          <button
+            class="gallery-card"
+            type="button"
+            data-image="img/unas8.png"
+            aria-label="View nail design 8"
+          >
 
             <img
               src="img/unas8.png"
@@ -482,7 +519,7 @@
               loading="lazy"
             >
 
-          </div>
+          </button>
 
 
         </div>
@@ -491,60 +528,70 @@
 
     </section>
 
-<!-- ========================================
-     LIGHTBOX
-========================================= -->
-
-<div
-  class="lightbox"
-  id="lightbox"
-  aria-hidden="true"
->
-
-  <button
-    class="lightbox__close"
-    id="lightbox-close"
-    type="button"
-    aria-label="Close gallery"
-  >
-    ×
-  </button>
 
 
-  <button
-    class="lightbox__arrow lightbox__arrow--left"
-    id="lightbox-prev"
-    type="button"
-    aria-label="Previous image"
-  >
-    ‹
-  </button>
+    <!-- ========================================
+         LIGHTBOX
+    ========================================= -->
 
-
-  <div class="lightbox__image-wrapper">
-
-    <img
-      src=""
-      alt="Red Muse nail design"
-      class="lightbox__image"
-      id="lightbox-image"
+    <div
+      class="lightbox"
+      id="lightbox"
+      aria-hidden="true"
     >
 
-  </div>
+
+      <!-- Close Button -->
+
+      <button
+        class="lightbox__close"
+        id="lightbox-close"
+        type="button"
+        aria-label="Close gallery"
+      >
+        ×
+      </button>
 
 
-  <button
-    class="lightbox__arrow lightbox__arrow--right"
-    id="lightbox-next"
-    type="button"
-    aria-label="Next image"
-  >
-    ›
-  </button>
+      <!-- Previous Image -->
 
-</div>
+      <button
+        class="lightbox__arrow lightbox__arrow--left"
+        id="lightbox-prev"
+        type="button"
+        aria-label="Previous image"
+      >
+        ‹
+      </button>
 
 
+      <!-- Lightbox Image -->
+
+      <div class="lightbox__image-wrapper">
+
+        <img
+          src=""
+          alt="Red Muse nail design"
+          class="lightbox__image"
+          id="lightbox-image"
+        >
+
+      </div>
+
+
+      <!-- Next Image -->
+
+      <button
+        class="lightbox__arrow lightbox__arrow--right"
+        id="lightbox-next"
+        type="button"
+        aria-label="Next image"
+      >
+        ›
+      </button>
+
+
+    </div>
 
 
 
@@ -581,7 +628,7 @@
 
 
           <a
-            href="#"
+            href="booking.html"
             class="btn btn--light"
           >
             Book Appointment
@@ -622,7 +669,7 @@
       <div class="footer__brand">
 
         <a
-          href="#home"
+          href="index.html#home"
           aria-label="Back to Red Muse home"
         >
 
