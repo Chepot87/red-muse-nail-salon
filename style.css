@@ -108,6 +108,7 @@ button {
 
 .header {
   position: sticky;
+
   top: 0;
 
   z-index: 1000;
@@ -115,7 +116,8 @@ button {
   background:
     rgba(255, 255, 255, 0.96);
 
-  backdrop-filter: blur(14px);
+  backdrop-filter:
+    blur(14px);
 
   border-bottom:
     1px solid rgba(179, 0, 27, 0.08);
@@ -126,7 +128,9 @@ button {
   min-height: 88px;
 
   display: flex;
+
   align-items: center;
+
   justify-content: space-between;
 
   gap: 30px;
@@ -135,6 +139,7 @@ button {
 
 .header__brand {
   display: flex;
+
   align-items: center;
 
   flex-shrink: 0;
@@ -143,6 +148,7 @@ button {
 
 .header__logo {
   width: 96px;
+
   height: 72px;
 
   object-fit: contain;
@@ -155,6 +161,7 @@ button {
 
 .nav {
   display: flex;
+
   align-items: center;
 
   gap: 28px;
@@ -165,6 +172,7 @@ button {
   position: relative;
 
   font-weight: 600;
+
   font-size: 0.95rem;
 
   transition:
@@ -180,19 +188,24 @@ button {
   position: absolute;
 
   left: 0;
+
   bottom: -6px;
 
   width: 0;
+
   height: 2px;
 
-  background: var(--red);
+  background:
+    var(--red);
 
-  transition: width 0.25s ease;
+  transition:
+    width 0.25s ease;
 }
 
 
 .nav a:not(.nav__button):hover {
-  color: var(--red);
+  color:
+    var(--red);
 }
 
 
@@ -202,19 +215,26 @@ button {
 
 
 .nav__button {
-  padding: 11px 20px;
+  padding:
+    11px 20px;
 
-  background: var(--red);
-  color: var(--white) !important;
+  background:
+    var(--red);
 
-  border-radius: 999px;
+  color:
+    var(--white) !important;
+
+  border-radius:
+    999px;
 }
 
 
 .nav__button:hover {
-  background: var(--red-dark);
+  background:
+    var(--red-dark);
 
-  transform: translateY(-1px);
+  transform:
+    translateY(-1px);
 }
 
 
@@ -226,15 +246,18 @@ button {
   display: none;
 
   width: 42px;
+
   height: 42px;
 
   padding: 8px;
 
   border: 0;
 
-  background: transparent;
+  background:
+    transparent;
 
-  cursor: pointer;
+  cursor:
+    pointer;
 }
 
 
@@ -242,11 +265,14 @@ button {
   display: block;
 
   width: 26px;
+
   height: 2px;
 
-  margin: 6px auto;
+  margin:
+    6px auto;
 
-  background: var(--red-dark);
+  background:
+    var(--red-dark);
 
   transition:
     transform 0.3s ease,
@@ -261,9 +287,11 @@ button {
 .hero {
   position: relative;
 
-  min-height: calc(100vh - 88px);
+  min-height:
+    calc(100vh - 88px);
 
   display: flex;
+
   align-items: center;
 
   overflow: hidden;
@@ -297,7 +325,8 @@ button {
 
   gap: 70px;
 
-  padding-block: 90px;
+  padding-block:
+    90px;
 }
 
 
@@ -309,22 +338,29 @@ button {
 
 
 .eyebrow {
-  margin-bottom: 16px;
+  margin-bottom:
+    16px;
 
-  color: var(--red);
+  color:
+    var(--red);
 
-  text-transform: uppercase;
+  text-transform:
+    uppercase;
 
-  font-weight: 700;
+  font-weight:
+    700;
 
-  letter-spacing: 0.14em;
+  letter-spacing:
+    0.14em;
 
-  font-size: 0.78rem;
+  font-size:
+    0.78rem;
 }
 
 
 .hero h1 {
-  margin-bottom: 26px;
+  margin-bottom:
+    26px;
 
   font-family:
     "Playfair Display",
@@ -333,35 +369,47 @@ button {
   font-size:
     clamp(3.2rem, 7vw, 6.2rem);
 
-  line-height: 0.98;
+  line-height:
+    0.98;
 
-  letter-spacing: -0.04em;
+  letter-spacing:
+    -0.04em;
 }
 
 
 .hero h1 span {
-  display: block;
+  display:
+    block;
 
-  color: var(--red);
+  color:
+    var(--red);
 }
 
 
 .hero__description {
-  max-width: 580px;
+  max-width:
+    580px;
 
-  margin-bottom: 34px;
+  margin-bottom:
+    34px;
 
-  color: var(--text-medium);
+  color:
+    var(--text-medium);
 
-  font-size: 1.12rem;
+  font-size:
+    1.12rem;
 }
 
 
 .hero__actions {
-  display: flex;
-  flex-wrap: wrap;
+  display:
+    flex;
 
-  gap: 14px;
+  flex-wrap:
+    wrap;
+
+  gap:
+    14px;
 }
 
 
@@ -370,18 +418,26 @@ button {
 ========================================= */
 
 .btn {
-  display: inline-flex;
+  display:
+    inline-flex;
 
-  align-items: center;
-  justify-content: center;
+  align-items:
+    center;
 
-  min-height: 50px;
+  justify-content:
+    center;
 
-  padding: 14px 24px;
+  min-height:
+    50px;
 
-  border-radius: 999px;
+  padding:
+    14px 24px;
 
-  font-weight: 700;
+  border-radius:
+    999px;
+
+  font-weight:
+    700;
 
   transition:
     transform 0.25s ease,
@@ -393,14 +449,17 @@ button {
 
 
 .btn:hover {
-  transform: translateY(-2px);
+  transform:
+    translateY(-2px);
 }
 
 
 .btn--primary {
-  background: var(--red);
+  background:
+    var(--red);
 
-  color: var(--white);
+  color:
+    var(--white);
 
   box-shadow:
     0 10px 25px rgba(217, 4, 41, 0.18);
@@ -408,7 +467,8 @@ button {
 
 
 .btn--primary:hover {
-  background: var(--red-dark);
+  background:
+    var(--red-dark);
 
   box-shadow:
     0 14px 30px rgba(122, 0, 25, 0.22);
@@ -422,12 +482,47 @@ button {
   background:
     rgba(255, 255, 255, 0.75);
 
-  color: var(--red);
+  color:
+    var(--red);
 }
 
 
 .btn--secondary:hover {
-  background: var(--soft-white);
+  background:
+    var(--soft-white);
+}
+
+
+.btn--light {
+  background:
+    var(--white);
+
+  color:
+    var(--red-dark);
+}
+
+
+.btn--light:hover {
+  background:
+    var(--soft-white);
+}
+
+
+.btn--outline-light {
+  border:
+    1px solid rgba(255, 255, 255, 0.60);
+
+  color:
+    var(--white);
+}
+
+
+.btn--outline-light:hover {
+  background:
+    rgba(255, 255, 255, 0.10);
+
+  border-color:
+    var(--white);
 }
 
 
@@ -439,7 +534,9 @@ button {
   position: relative;
 
   display: flex;
+
   justify-content: center;
+
   align-items: center;
 
   min-width: 0;
@@ -449,50 +546,70 @@ button {
 .hero__image-card {
   position: relative;
 
-  width: min(100%, 520px);
+  width:
+    min(100%, 520px);
 
-  padding: 12px;
+  padding:
+    12px;
 
-  background: var(--white);
+  background:
+    var(--white);
 
   border:
     1px solid rgba(179, 0, 27, 0.12);
 
-  border-radius: 34px;
+  border-radius:
+    34px;
 
-  box-shadow: var(--shadow-strong);
+  box-shadow:
+    var(--shadow-strong);
 
-  isolation: isolate;
+  isolation:
+    isolate;
 }
 
 
 .hero__image {
   width: 100%;
 
-  aspect-ratio: 4 / 5;
+  aspect-ratio:
+    4 / 5;
 
-  object-fit: cover;
-  object-position: center;
+  object-fit:
+    cover;
 
-  border-radius: 24px;
+  object-position:
+    center;
+
+  border-radius:
+    24px;
 }
 
 
 .hero__accent {
-  position: absolute;
+  position:
+    absolute;
 
-  border-radius: 50%;
+  border-radius:
+    50%;
 
-  z-index: -1;
+  z-index:
+    -1;
 }
 
 
 .hero__accent--one {
-  width: 180px;
-  height: 180px;
+  width:
+    180px;
 
-  top: -45px;
-  right: -45px;
+  height:
+    180px;
+
+  top:
+    -45px;
+
+  right:
+    -45px;
 
   background:
     rgba(239, 35, 60, 0.10);
@@ -500,11 +617,17 @@ button {
 
 
 .hero__accent--two {
-  width: 110px;
-  height: 110px;
+  width:
+    110px;
 
-  bottom: -30px;
-  left: -30px;
+  height:
+    110px;
+
+  bottom:
+    -30px;
+
+  left:
+    -30px;
 
   background:
     rgba(122, 0, 25, 0.08);
@@ -512,25 +635,28 @@ button {
 
 
 /* ========================================
-   GLOBAL SECTION
+   GLOBAL SECTIONS
 ========================================= */
 
 .section {
-  padding-block: 110px;
+  padding-block:
+    110px;
 }
 
 
 .section-heading {
-  max-width: 660px;
+  max-width:
+    660px;
 
-  margin-bottom: 54px;
+  margin-bottom:
+    54px;
 }
 
 
 .section-heading h2,
-.about h2,
 .contact h2 {
-  margin-bottom: 18px;
+  margin-bottom:
+    18px;
 
   font-family:
     "Playfair Display",
@@ -539,12 +665,14 @@ button {
   font-size:
     clamp(2.2rem, 4vw, 3.5rem);
 
-  line-height: 1.1;
+  line-height:
+    1.1;
 }
 
 
 .section-heading p {
-  color: var(--text-medium);
+  color:
+    var(--text-medium);
 }
 
 
@@ -553,24 +681,29 @@ button {
 ========================================= */
 
 .services {
-  background: var(--white);
+  background:
+    var(--white);
 }
 
 
 .services__grid {
-  display: grid;
+  display:
+    grid;
 
   grid-template-columns:
     repeat(3, 1fr);
 
-  gap: 24px;
+  gap:
+    24px;
 }
 
 
 .service-card {
-  padding: 34px;
+  padding:
+    34px;
 
-  background: var(--white);
+  background:
+    var(--white);
 
   border:
     1px solid var(--border);
@@ -598,13 +731,20 @@ button {
 
 
 .service-card__icon {
-  width: 48px;
-  height: 48px;
+  width:
+    48px;
 
-  display: grid;
-  place-items: center;
+  height:
+    48px;
 
-  margin-bottom: 20px;
+  display:
+    grid;
+
+  place-items:
+    center;
+
+  margin-bottom:
+    20px;
 
   background:
     var(--soft-white);
@@ -612,7 +752,8 @@ button {
   color:
     var(--red);
 
-  border-radius: 50%;
+  border-radius:
+    50%;
 
   font-size:
     1.25rem;
@@ -620,7 +761,8 @@ button {
 
 
 .service-card h3 {
-  margin-bottom: 12px;
+  margin-bottom:
+    12px;
 
   font-family:
     "Playfair Display",
@@ -648,25 +790,32 @@ button {
 
 
 .gallery__grid {
-  display: grid;
+  display:
+    grid;
 
   grid-template-columns:
     repeat(4, 1fr);
 
-  gap: 18px;
+  gap:
+    18px;
 }
 
 
 .gallery-card {
-  position: relative;
+  position:
+    relative;
 
-  width: 100%;
+  width:
+    100%;
 
-  aspect-ratio: 1 / 1;
+  aspect-ratio:
+    1 / 1;
 
-  padding: 0;
+  padding:
+    0;
 
-  overflow: hidden;
+  overflow:
+    hidden;
 
   background:
     var(--white);
@@ -680,9 +829,11 @@ button {
   box-shadow:
     var(--shadow-soft);
 
-  cursor: pointer;
+  cursor:
+    pointer;
 
-  appearance: none;
+  appearance:
+    none;
 
   transition:
     transform 0.3s ease,
@@ -691,32 +842,44 @@ button {
 
 
 .gallery-card img {
-  width: 100%;
-  height: 100%;
+  width:
+    100%;
 
-  display: block;
+  height:
+    100%;
 
-  object-fit: cover;
-  object-position: center;
+  display:
+    block;
+
+  object-fit:
+    cover;
+
+  object-position:
+    center;
 
   transition:
-    transform 0.4s ease,
-    filter 0.4s ease;
+    transform 0.4s ease;
 }
 
 
-/* Overlay */
-
 .gallery-card::after {
-  content: "View";
+  content:
+    "View";
 
-  position: absolute;
+  position:
+    absolute;
 
-  inset: 0;
+  inset:
+    0;
 
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display:
+    flex;
+
+  align-items:
+    center;
+
+  justify-content:
+    center;
 
   background:
     linear-gradient(
@@ -727,15 +890,20 @@ button {
   color:
     var(--white);
 
-  font-weight: 700;
+  font-weight:
+    700;
 
-  font-size: 0.85rem;
+  font-size:
+    0.85rem;
 
-  letter-spacing: 0.12em;
+  letter-spacing:
+    0.12em;
 
-  text-transform: uppercase;
+  text-transform:
+    uppercase;
 
-  opacity: 0;
+  opacity:
+    0;
 
   transition:
     opacity 0.3s ease;
@@ -758,7 +926,8 @@ button {
 
 
 .gallery-card:hover::after {
-  opacity: 1;
+  opacity:
+    1;
 }
 
 
@@ -776,16 +945,23 @@ button {
 ========================================= */
 
 .lightbox {
-  position: fixed;
+  position:
+    fixed;
 
-  inset: 0;
+  inset:
+    0;
 
-  z-index: 5000;
+  z-index:
+    5000;
 
-  display: flex;
+  display:
+    flex;
 
-  align-items: center;
-  justify-content: center;
+  align-items:
+    center;
+
+  justify-content:
+    center;
 
   padding:
     40px 90px;
@@ -796,11 +972,14 @@ button {
   backdrop-filter:
     blur(14px);
 
-  opacity: 0;
+  opacity:
+    0;
 
-  visibility: hidden;
+  visibility:
+    hidden;
 
-  pointer-events: none;
+  pointer-events:
+    none;
 
   transition:
     opacity 0.3s ease,
@@ -809,20 +988,22 @@ button {
 
 
 .lightbox.active {
-  opacity: 1;
+  opacity:
+    1;
 
-  visibility: visible;
+  visibility:
+    visible;
 
-  pointer-events: auto;
+  pointer-events:
+    auto;
 }
 
 
 body.lightbox-open {
-  overflow: hidden;
+  overflow:
+    hidden;
 }
 
-
-/* Lightbox image wrapper */
 
 .lightbox__image-wrapper {
   width:
@@ -831,25 +1012,35 @@ body.lightbox-open {
   max-height:
     88vh;
 
-  display: flex;
+  display:
+    flex;
 
-  align-items: center;
-  justify-content: center;
+  align-items:
+    center;
+
+  justify-content:
+    center;
 }
 
 
 .lightbox__image {
-  max-width: 100%;
+  max-width:
+    100%;
 
   max-height:
     88vh;
 
-  width: auto;
-  height: auto;
+  width:
+    auto;
 
-  object-fit: contain;
+  height:
+    auto;
 
-  border-radius: 22px;
+  object-fit:
+    contain;
+
+  border-radius:
+    22px;
 
   border:
     1px solid rgba(255, 255, 255, 0.10);
@@ -866,39 +1057,51 @@ body.lightbox-open {
 
   from {
     opacity: 0;
-    transform: scale(0.97);
+
+    transform:
+      scale(0.97);
   }
 
   to {
     opacity: 1;
-    transform: scale(1);
+
+    transform:
+      scale(1);
   }
 
 }
 
 
-/* ========================================
-   LIGHTBOX CLOSE
-========================================= */
-
 .lightbox__close {
-  position: absolute;
+  position:
+    absolute;
 
-  top: 24px;
-  right: 28px;
+  top:
+    24px;
 
-  width: 50px;
-  height: 50px;
+  right:
+    28px;
 
-  display: grid;
-  place-items: center;
+  width:
+    50px;
 
-  padding: 0;
+  height:
+    50px;
+
+  display:
+    grid;
+
+  place-items:
+    center;
+
+  padding:
+    0;
 
   border:
     1px solid rgba(255, 255, 255, 0.14);
 
-  border-radius: 50%;
+  border-radius:
+    50%;
 
   background:
     rgba(255, 255, 255, 0.10);
@@ -906,11 +1109,14 @@ body.lightbox-open {
   color:
     var(--white);
 
-  font-size: 2rem;
+  font-size:
+    2rem;
 
-  line-height: 1;
+  line-height:
+    1;
 
-  cursor: pointer;
+  cursor:
+    pointer;
 
   backdrop-filter:
     blur(10px);
@@ -930,27 +1136,33 @@ body.lightbox-open {
 }
 
 
-/* ========================================
-   LIGHTBOX ARROWS
-========================================= */
-
 .lightbox__arrow {
-  position: absolute;
+  position:
+    absolute;
 
-  top: 50%;
+  top:
+    50%;
 
-  width: 54px;
-  height: 54px;
+  width:
+    54px;
 
-  display: grid;
-  place-items: center;
+  height:
+    54px;
 
-  padding: 0;
+  display:
+    grid;
+
+  place-items:
+    center;
+
+  padding:
+    0;
 
   border:
     1px solid rgba(255, 255, 255, 0.14);
 
-  border-radius: 50%;
+  border-radius:
+    50%;
 
   background:
     rgba(255, 255, 255, 0.10);
@@ -958,11 +1170,14 @@ body.lightbox-open {
   color:
     var(--white);
 
-  font-size: 2.6rem;
+  font-size:
+    2.6rem;
 
-  line-height: 1;
+  line-height:
+    1;
 
-  cursor: pointer;
+  cursor:
+    pointer;
 
   backdrop-filter:
     blur(10px);
@@ -971,8 +1186,7 @@ body.lightbox-open {
     translateY(-50%);
 
   transition:
-    background 0.25s ease,
-    transform 0.25s ease;
+    background 0.25s ease;
 }
 
 
@@ -983,71 +1197,126 @@ body.lightbox-open {
 
 
 .lightbox__arrow--left {
-  left: 28px;
+  left:
+    28px;
 }
 
 
 .lightbox__arrow--right {
-  right: 28px;
+  right:
+    28px;
 }
 
 
 /* ========================================
-   ABOUT
+   ABOUT PAGE HERO
 ========================================= */
 
-.about {
-  background: var(--white);
+.about-page-hero {
+  position:
+    relative;
+
+  padding-block:
+    100px;
+
+  overflow:
+    hidden;
+
+  background:
+    radial-gradient(
+      circle at 15% 20%,
+      rgba(239, 35, 60, 0.08),
+      transparent 30%
+    ),
+    linear-gradient(
+      135deg,
+      #ffffff,
+      #fff7f8
+    );
 }
 
 
-.about__container {
-  display: grid;
+.about-page-hero__container {
+  display:
+    grid;
 
   grid-template-columns:
     0.9fr 1.1fr;
 
-  align-items: center;
+  align-items:
+    center;
 
-  gap: 70px;
+  gap:
+    80px;
 }
 
 
-.about__photo {
-  position: relative;
+.about-page-hero__visual {
+  display:
+    flex;
 
-  display: flex;
+  align-items:
+    center;
 
-  justify-content: center;
-  align-items: center;
+  justify-content:
+    center;
 
-  min-width: 0;
+  min-width:
+    0;
 }
 
 
-.about__content p {
-  margin-bottom: 16px;
+.about-page-hero__content h1 {
+  margin-bottom:
+    26px;
+
+  font-family:
+    "Playfair Display",
+    serif;
+
+  font-size:
+    clamp(3rem, 6vw, 5.4rem);
+
+  line-height:
+    1;
+
+  letter-spacing:
+    -0.04em;
+}
+
+
+.about-page-hero__content h1 span {
+  display:
+    block;
+
+  color:
+    var(--red);
+}
+
+
+.about-page-hero__content p {
+  max-width:
+    600px;
+
+  margin-bottom:
+    18px;
 
   color:
     var(--text-medium);
-}
 
-
-.about__location {
-  color:
-    var(--red-dark) !important;
-
-  font-weight:
-    700;
+  font-size:
+    1.08rem;
 }
 
 
 /* ========================================
    ABOUT ARTIST IMAGE
+   SAME SHAPE ON DESKTOP + MOBILE
 ========================================= */
 
 .about__image-card {
-  position: relative;
+  position:
+    relative;
 
   width:
     min(100%, 460px);
@@ -1135,246 +1404,6 @@ body.lightbox-open {
 
   background:
     rgba(122, 0, 25, 0.09);
-}
-
-
-/* ========================================
-   CONTACT
-========================================= */
-
-.contact {
-  padding-block:
-    110px;
-
-  background:
-    linear-gradient(
-      135deg,
-      var(--red-dark),
-      var(--red)
-    );
-
-  color:
-    var(--white);
-
-  text-align:
-    center;
-}
-
-
-.contact__container {
-  max-width:
-    760px;
-}
-
-
-.eyebrow--light {
-  color:
-    #ffcbd3;
-}
-
-
-.contact p {
-  max-width:
-    600px;
-
-  margin:
-    0 auto 30px;
-
-  color:
-    rgba(255, 255, 255, 0.84);
-}
-
-
-.contact__actions {
-  display:
-    flex;
-
-  justify-content:
-    center;
-
-  flex-wrap:
-    wrap;
-
-  gap:
-    14px;
-}
-
-
-.btn--light {
-  background:
-    var(--white);
-
-  color:
-    var(--red-dark);
-}
-
-
-.btn--light:hover {
-  background:
-    var(--soft-white);
-}
-
-
-.btn--outline-light {
-  border:
-    1px solid rgba(255, 255, 255, 0.6);
-
-  color:
-    var(--white);
-}
-
-
-.btn--outline-light:hover {
-  background:
-    rgba(255, 255, 255, 0.10);
-
-  border-color:
-    var(--white);
-}
-
-
-/* ========================================
-   FOOTER
-========================================= */
-
-.footer {
-  padding-block:
-    38px;
-
-  background:
-    #300009;
-
-  color:
-    rgba(255, 255, 255, 0.75);
-}
-
-
-.footer__container {
-  display:
-    flex;
-
-  align-items:
-    center;
-
-  justify-content:
-    space-between;
-
-  gap:
-    30px;
-}
-
-
-.footer__brand {
-  flex-shrink: 0;
-}
-
-
-.footer__logo {
-  width:
-    82px;
-
-  height:
-    70px;
-
-  object-fit:
-    contain;
-}
-
-
-/* ========================================
-   ABOUT PAGE
-========================================= */
-
-.about-page-hero {
-  position: relative;
-
-  padding-block:
-    100px;
-
-  overflow:
-    hidden;
-
-  background:
-    radial-gradient(
-      circle at 15% 20%,
-      rgba(239, 35, 60, 0.08),
-      transparent 30%
-    ),
-    linear-gradient(
-      135deg,
-      #ffffff,
-      #fff7f8
-    );
-}
-
-
-.about-page-hero__container {
-  display:
-    grid;
-
-  grid-template-columns:
-    0.9fr 1.1fr;
-
-  align-items:
-    center;
-
-  gap:
-    80px;
-}
-
-
-.about-page-hero__visual {
-  display:
-    flex;
-
-  align-items:
-    center;
-
-  justify-content:
-    center;
-}
-
-
-.about-page-hero__content h1 {
-  margin-bottom:
-    26px;
-
-  font-family:
-    "Playfair Display",
-    serif;
-
-  font-size:
-    clamp(3rem, 6vw, 5.4rem);
-
-  line-height:
-    1;
-
-  letter-spacing:
-    -0.04em;
-}
-
-
-.about-page-hero__content h1 span {
-  display:
-    block;
-
-  color:
-    var(--red);
-}
-
-
-.about-page-hero__content p {
-  max-width:
-    600px;
-
-  margin-bottom:
-    18px;
-
-  color:
-    var(--text-medium);
-
-  font-size:
-    1.08rem;
 }
 
 
@@ -1494,6 +1523,251 @@ body.lightbox-open {
 
 
 /* ========================================
+   CONTACT / CTA
+========================================= */
+
+.contact {
+  padding-block:
+    110px;
+
+  background:
+    linear-gradient(
+      135deg,
+      var(--red-dark),
+      var(--red)
+    );
+
+  color:
+    var(--white);
+
+  text-align:
+    center;
+}
+
+
+.contact__container {
+  max-width:
+    760px;
+}
+
+
+.eyebrow--light {
+  color:
+    #ffcbd3;
+}
+
+
+.contact p {
+  max-width:
+    600px;
+
+  margin:
+    0 auto 30px;
+
+  color:
+    rgba(255, 255, 255, 0.84);
+}
+
+
+.contact__actions {
+  display:
+    flex;
+
+  justify-content:
+    center;
+
+  flex-wrap:
+    wrap;
+
+  gap:
+    14px;
+}
+
+
+/* ========================================
+   BOOKING PAGE
+========================================= */
+
+.booking-page {
+  min-height:
+    calc(100vh - 88px);
+
+  padding-block:
+    90px 110px;
+
+  background:
+    radial-gradient(
+      circle at 85% 15%,
+      rgba(239, 35, 60, 0.08),
+      transparent 30%
+    ),
+    radial-gradient(
+      circle at 10% 75%,
+      rgba(122, 0, 25, 0.05),
+      transparent 30%
+    ),
+    linear-gradient(
+      135deg,
+      rgba(255, 255, 255, 0.97),
+      rgba(255, 245, 245, 0.97)
+    );
+}
+
+
+.booking-page__heading {
+  max-width:
+    700px;
+
+  margin:
+    0 auto 50px;
+
+  text-align:
+    center;
+}
+
+
+.booking-page__heading h1 {
+  margin-bottom:
+    22px;
+
+  font-family:
+    "Playfair Display",
+    serif;
+
+  font-size:
+    clamp(3rem, 6vw, 5rem);
+
+  line-height:
+    1;
+
+  letter-spacing:
+    -0.04em;
+}
+
+
+.booking-page__heading h1 span {
+  display:
+    block;
+
+  color:
+    var(--red);
+}
+
+
+.booking-page__heading p:not(.eyebrow) {
+  max-width:
+    580px;
+
+  margin-inline:
+    auto;
+
+  color:
+    var(--text-medium);
+
+  font-size:
+    1.05rem;
+}
+
+
+/* ========================================
+   CALENDLY
+========================================= */
+
+.booking-page__calendar {
+  width:
+    100%;
+
+  max-width:
+    1050px;
+
+  margin-inline:
+    auto;
+
+  padding:
+    12px;
+
+  background:
+    rgba(255, 255, 255, 0.94);
+
+  border:
+    1px solid rgba(179, 0, 27, 0.10);
+
+  border-radius:
+    28px;
+
+  box-shadow:
+    var(--shadow);
+
+  overflow:
+    hidden;
+}
+
+
+.calendly-inline-widget {
+  width:
+    100%;
+
+  min-width:
+    0 !important;
+
+  border-radius:
+    20px;
+
+  overflow:
+    hidden;
+}
+
+
+/* ========================================
+   FOOTER
+========================================= */
+
+.footer {
+  padding-block:
+    38px;
+
+  background:
+    #300009;
+
+  color:
+    rgba(255, 255, 255, 0.75);
+}
+
+
+.footer__container {
+  display:
+    flex;
+
+  align-items:
+    center;
+
+  justify-content:
+    space-between;
+
+  gap:
+    30px;
+}
+
+
+.footer__brand {
+  flex-shrink:
+    0;
+}
+
+
+.footer__logo {
+  width:
+    82px;
+
+  height:
+    70px;
+
+  object-fit:
+    contain;
+}
+
+
+/* ========================================
    TABLET
 ========================================= */
 
@@ -1526,7 +1800,7 @@ body.lightbox-open {
 
 
 /* ========================================
-   MOBILE / TABLET NAV
+   MOBILE / TABLET
 ========================================= */
 
 @media (max-width: 900px) {
@@ -1656,6 +1930,8 @@ body.lightbox-open {
   }
 
 
+  /* Hero */
+
   .hero {
     min-height:
       auto;
@@ -1692,40 +1968,15 @@ body.lightbox-open {
   }
 
 
+  /* Services */
+
   .services__grid {
     grid-template-columns:
       1fr;
   }
 
 
-  .about__container {
-    grid-template-columns:
-      1fr;
-
-    gap:
-      50px;
-  }
-
-
-  .about__photo {
-    max-width:
-      520px;
-
-    margin-inline:
-      auto;
-  }
-
-
-  .footer__container {
-    flex-direction:
-      column;
-
-    text-align:
-      center;
-  }
-
-
-  /* About page */
+  /* About */
 
   .about-page-hero__container {
     grid-template-columns:
@@ -1737,6 +1988,9 @@ body.lightbox-open {
 
 
   .about-page-hero__visual {
+    width:
+      100%;
+
     max-width:
       520px;
 
@@ -1765,6 +2019,25 @@ body.lightbox-open {
       1fr;
   }
 
+
+  /* Booking */
+
+  .booking-page {
+    padding-block:
+      70px 90px;
+  }
+
+
+  /* Footer */
+
+  .footer__container {
+    flex-direction:
+      column;
+
+    text-align:
+      center;
+  }
+
 }
 
 
@@ -1785,6 +2058,8 @@ body.lightbox-open {
       min(92%, var(--container));
   }
 
+
+  /* Header */
 
   .header__container {
     min-height:
@@ -1807,9 +2082,33 @@ body.lightbox-open {
   }
 
 
+  /* Global Sections */
+
   .section {
     padding-block:
       78px;
+  }
+
+
+  .eyebrow {
+    font-size:
+      0.72rem;
+
+    letter-spacing:
+      0.12em;
+  }
+
+
+  .section-heading {
+    margin-bottom:
+      38px;
+  }
+
+
+  .section-heading h2,
+  .contact h2 {
+    font-size:
+      clamp(2rem, 10vw, 2.8rem);
   }
 
 
@@ -1823,15 +2122,6 @@ body.lightbox-open {
 
     gap:
       42px;
-  }
-
-
-  .eyebrow {
-    font-size:
-      0.72rem;
-
-    letter-spacing:
-      0.12em;
   }
 
 
@@ -1921,25 +2211,7 @@ body.lightbox-open {
 
 
   /* ========================================
-     HEADINGS MOBILE
-  ========================================= */
-
-  .section-heading {
-    margin-bottom:
-      38px;
-  }
-
-
-  .section-heading h2,
-  .about h2,
-  .contact h2 {
-    font-size:
-      clamp(2rem, 10vw, 2.8rem);
-  }
-
-
-  /* ========================================
-     SERVICE MOBILE
+     SERVICES MOBILE
   ========================================= */
 
   .service-card {
@@ -2078,11 +2350,27 @@ body.lightbox-open {
 
   /* ========================================
      ABOUT MOBILE
+     IMPORTANT: SAME IMAGE SHAPE
   ========================================= */
 
-  .about__container {
+  .about-page-hero {
+    padding-block:
+      65px 80px;
+  }
+
+
+  .about-page-hero__container {
     gap:
-      38px;
+      42px;
+  }
+
+
+  .about-page-hero__visual {
+    width:
+      100%;
+
+    max-width:
+      460px;
   }
 
 
@@ -2090,17 +2378,35 @@ body.lightbox-open {
     width:
       100%;
 
+    max-width:
+      460px;
+
     padding:
       8px;
 
+    margin-inline:
+      auto;
+
     border-radius:
-      38% 38% 22px 22px;
+      28px;
   }
 
 
   .about__image {
+    width:
+      100%;
+
+    aspect-ratio:
+      4 / 5;
+
+    object-fit:
+      cover;
+
+    object-position:
+      center;
+
     border-radius:
-      36% 36% 16px 16px;
+      28px;
   }
 
 
@@ -2134,20 +2440,6 @@ body.lightbox-open {
   }
 
 
-  /* About page */
-
-  .about-page-hero {
-    padding-block:
-      65px 80px;
-  }
-
-
-  .about-page-hero__container {
-    gap:
-      42px;
-  }
-
-
   .about-page-hero__content h1 {
     font-size:
       clamp(2.8rem, 13vw, 4rem);
@@ -2163,6 +2455,67 @@ body.lightbox-open {
   .about-value-card {
     padding:
       28px 24px;
+  }
+
+
+  /* ========================================
+     BOOKING MOBILE
+  ========================================= */
+
+  .booking-page {
+    min-height:
+      auto;
+
+    padding-block:
+      60px 80px;
+  }
+
+
+  .booking-page__heading {
+    margin-bottom:
+      35px;
+
+    text-align:
+      left;
+  }
+
+
+  .booking-page__heading h1 {
+    font-size:
+      clamp(2.8rem, 13vw, 4rem);
+  }
+
+
+  .booking-page__heading p:not(.eyebrow) {
+    margin-inline:
+      0;
+
+    font-size:
+      1rem;
+  }
+
+
+  .booking-page__calendar {
+    padding:
+      4px;
+
+    border-radius:
+      18px;
+  }
+
+
+  .calendly-inline-widget {
+    width:
+      100% !important;
+
+    min-width:
+      0 !important;
+
+    height:
+      780px !important;
+
+    border-radius:
+      14px;
   }
 
 
@@ -2282,183 +2635,6 @@ body.lightbox-open {
 
     transition-duration:
       0.01ms !important;
-  }
-
-}
-
-/* ========================================
-   BOOKING PAGE
-========================================= */
-
-.booking-page {
-  min-height: 100vh;
-
-  padding-block:
-    90px 110px;
-
-  background:
-    radial-gradient(
-      circle at 85% 15%,
-      rgba(239, 35, 60, 0.08),
-      transparent 30%
-    ),
-    linear-gradient(
-      135deg,
-      rgba(255, 255, 255, 0.96),
-      rgba(255, 245, 245, 0.96)
-    );
-}
-
-
-.booking-page__heading {
-  max-width:
-    700px;
-
-  margin:
-    0 auto 50px;
-
-  text-align:
-    center;
-}
-
-
-.booking-page__heading h1 {
-  margin-bottom:
-    22px;
-
-  font-family:
-    "Playfair Display",
-    serif;
-
-  font-size:
-    clamp(3rem, 6vw, 5rem);
-
-  line-height:
-    1;
-
-  letter-spacing:
-    -0.04em;
-}
-
-
-.booking-page__heading h1 span {
-  display:
-    block;
-
-  color:
-    var(--red);
-}
-
-
-.booking-page__heading p:not(.eyebrow) {
-  max-width:
-    580px;
-
-  margin-inline:
-    auto;
-
-  color:
-    var(--text-medium);
-
-  font-size:
-    1.05rem;
-}
-
-
-/* ========================================
-   CALENDLY CONTAINER
-========================================= */
-
-.booking-page__calendar {
-  max-width:
-    1050px;
-
-  margin-inline:
-    auto;
-
-  padding:
-    12px;
-
-  background:
-    rgba(255, 255, 255, 0.92);
-
-  border:
-    1px solid rgba(179, 0, 27, 0.10);
-
-  border-radius:
-    28px;
-
-  box-shadow:
-    var(--shadow);
-
-  overflow:
-    hidden;
-}
-
-
-.calendly-inline-widget {
-  width:
-    100%;
-
-  border-radius:
-    20px;
-
-  overflow:
-    hidden;
-}
-
-
-/* ========================================
-   BOOKING MOBILE
-========================================= */
-
-@media (max-width: 560px) {
-
-  .booking-page {
-    padding-block:
-      60px 80px;
-  }
-
-
-  .booking-page__heading {
-    margin-bottom:
-      35px;
-
-    text-align:
-      left;
-  }
-
-
-  .booking-page__heading h1 {
-    font-size:
-      clamp(2.8rem, 13vw, 4rem);
-  }
-
-
-  .booking-page__heading p:not(.eyebrow) {
-    font-size:
-      1rem;
-  }
-
-
-  .booking-page__calendar {
-    padding:
-      4px;
-
-    border-radius:
-      18px;
-  }
-
-
-  .calendly-inline-widget {
-    min-width:
-      0 !important;
-
-    height:
-      760px !important;
-
-    border-radius:
-      14px;
   }
 
 }
